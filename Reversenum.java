@@ -11,6 +11,11 @@ public class Reversenum {
 	            reverse = reverse*10 + remainder;
 	            number = number/10;
 	            }while(number > 0);
-	        System.out.println(reverse);   
+	        System.out.println("Reversed Number is "+reverse);   
+	        if(number==reverse)
+	        	System.out.println("The given number is Palindrome");
+	        else
+	        	System.out.println("The given number is not a Palindrome");
+	        	        	
 	}
 }
